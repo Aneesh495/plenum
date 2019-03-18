@@ -1,0 +1,28 @@
+# Target build directories
+/target/
+/build/
+*.o
+*.obj
+*.dmb
+*.rsc
+
+# Rust
+Cargo.lock
+**/*.rs.bk
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
