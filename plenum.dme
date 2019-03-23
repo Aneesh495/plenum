@@ -1,0 +1,87 @@
+// Plenum: Cyber-Physical Process Control & Multi-Zone Digital Twin Engine
+// Dream Maker Environment File (.dme)
+// Auto-generated and maintained for BYOND DreamMaker and native execution runtimes
+
+#define FILE_DIR .
+
+// Core Definitions and Physical Constants
+#include "dm/defines.dm"
+
+// Core Spatial Substrate and Datum Hierarchy
+#include "dm/core/datum.dm"
+#include "dm/core/atom.dm"
+#include "dm/core/turf.dm"
+#include "dm/core/area.dm"
+#include "dm/core/obj.dm"
+#include "dm/core/mob.dm"
+#include "dm/core/spatial_grid.dm"
+
+// Multi-Component Atmospheric Thermodynamics & Fluid Mechanics
+#include "dm/physics/gas_mixture.dm"
+#include "dm/physics/thermodynamics.dm"
+#include "dm/physics/fluid_dynamics.dm"
+#include "dm/physics/diffusion.dm"
+#include "dm/physics/combustion.dm"
+#include "dm/physics/acoustics.dm"
+#include "dm/physics/phase_change.dm"
+
+// Electrical Microgrid & Power Flow
+#include "dm/microgrid/bus.dm"
+#include "dm/microgrid/line.dm"
+#include "dm/microgrid/transformer.dm"
+#include "dm/microgrid/generator.dm"
+#include "dm/microgrid/storage.dm"
+#include "dm/microgrid/load.dm"
+#include "dm/microgrid/power_flow.dm"
+#include "dm/microgrid/protection.dm"
+#include "dm/microgrid/switchgear.dm"
+
+// Hydraulic Networks & Process Piping
+#include "dm/hydraulics/pipe_network.dm"
+#include "dm/hydraulics/pump.dm"
+#include "dm/hydraulics/valve.dm"
+#include "dm/hydraulics/manifold.dm"
+#include "dm/hydraulics/vessel.dm"
+
+// Industrial Control Systems (ICS), PLC & SCADA
+#include "dm/automation/plc.dm"
+#include "dm/automation/ladder_logic.dm"
+#include "dm/automation/function_blocks.dm"
+#include "dm/automation/pid_controller.dm"
+#include "dm/automation/mpc_controller.dm"
+#include "dm/automation/state_machine.dm"
+#include "dm/automation/modbus.dm"
+#include "dm/automation/opc_ua.dm"
+#include "dm/automation/alarms.dm"
+#include "dm/automation/historian.dm"
+
+// Safety Instrumented Systems & Containment
+#include "dm/safety/sis_interlocks.dm"
+#include "dm/safety/emergency_shutdown.dm"
+#include "dm/safety/fire_suppression.dm"
+#include "dm/safety/containment.dm"
+
+// Autonomous Robotics & Material Handling
+#include "dm/robotics/pathfinding.dm"
+#include "dm/robotics/kinematics.dm"
+#include "dm/robotics/behavior_tree.dm"
+#include "dm/robotics/inspection_drone.dm"
+#include "dm/robotics/service_robot.dm"
+#include "dm/robotics/conveyor.dm"
+
+// Simulation Kernel & Event Scheduler
+#include "dm/scheduler/tick_kernel.dm"
+#include "dm/scheduler/priority_queue.dm"
+#include "dm/scheduler/fault_injector.dm"
+#include "dm/scheduler/rollback_engine.dm"
+
+// In-Engine Test Harness & Comprehensive Test Suites
+#include "dm/tests/test_runner.dm"
+#include "dm/tests/test_thermodynamics.dm"
+#include "dm/tests/test_microgrid.dm"
+#include "dm/tests/test_plc_automation.dm"
+#include "dm/tests/test_hydraulics.dm"
+#include "dm/tests/test_sis_safety.dm"
+#include "dm/tests/test_robotics.dm"
+#include "dm/tests/test_fault_injection.dm"
+#include "dm/tests/test_scenarios.dm"
