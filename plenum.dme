@@ -16,6 +16,18 @@
 #include "dm/core/mob.dm"
 #include "dm/core/spatial_grid.dm"
 
+// Mathematical & Engineering Libraries
+#include "dm/libraries/matrix.dm"
+#include "dm/libraries/ode_solver.dm"
+#include "dm/libraries/optimization.dm"
+#include "dm/libraries/signal_processing.dm"
+#include "dm/libraries/geometry.dm"
+#include "dm/libraries/interpolation.dm"
+#include "dm/libraries/statistics.dm"
+#include "dm/libraries/json.dm"
+#include "dm/libraries/circular_buffer.dm"
+#include "dm/libraries/graph.dm"
+
 // Multi-Component Atmospheric Thermodynamics & Fluid Mechanics
 #include "dm/physics/gas_mixture.dm"
 #include "dm/physics/thermodynamics.dm"
@@ -61,6 +73,20 @@
 #include "dm/safety/fire_suppression.dm"
 #include "dm/safety/containment.dm"
 
+// Plant Equipment Models
+#include "dm/models/gas_turbine.dm"
+#include "dm/models/boiler.dm"
+#include "dm/models/cooling_tower.dm"
+#include "dm/models/water_treatment.dm"
+#include "dm/models/air_separation.dm"
+#include "dm/models/compressed_air.dm"
+#include "dm/models/scrubber.dm"
+#include "dm/models/flare_system.dm"
+#include "dm/models/chiller_plant.dm"
+#include "dm/models/diesel_genset.dm"
+#include "dm/models/substation_bay.dm"
+#include "dm/models/bess_pcs.dm"
+
 // Autonomous Robotics & Material Handling
 #include "dm/robotics/pathfinding.dm"
 #include "dm/robotics/kinematics.dm"
@@ -74,6 +100,16 @@
 #include "dm/scheduler/priority_queue.dm"
 #include "dm/scheduler/fault_injector.dm"
 #include "dm/scheduler/rollback_engine.dm"
+
+// Full Facility Scenarios
+#include "dm/scenarios/scenario_blackout.dm"
+#include "dm/scenarios/scenario_cooling_loss.dm"
+#include "dm/scenarios/scenario_gas_leak.dm"
+#include "dm/scenarios/scenario_cyber_attack.dm"
+#include "dm/scenarios/scenario_overpressure.dm"
+#include "dm/scenarios/scenario_chemical_fire.dm"
+#include "dm/scenarios/scenario_microgrid_island.dm"
+#include "dm/scenarios/scenario_cold_start.dm"
 
 // In-Engine Test Harness & Comprehensive Test Suites
 #include "dm/tests/test_runner.dm"
