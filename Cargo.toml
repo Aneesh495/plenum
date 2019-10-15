@@ -1,0 +1,24 @@
+[package]
+name = "plenum"
+version = "0.1.0"
+edition = "2021"
+authors = ["Aneesh <aneeshkrishnaparthasarathy@gmail.com>"]
+description = "A deterministic cyber-physical process control, multi-zone atmospheric thermodynamics, and microgrid digital twin engine in DM"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Aneesh495/plenum"
+keywords = ["cyber-physical-systems", "discrete-event-simulation", "industrial-automation"]
+
+[[bin]]
+name = "plenum"
+path = "src/main.rs"
+
+[lib]
+name = "plenum_engine"
+path = "src/lib.rs"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
