@@ -27,6 +27,11 @@
 #include "dm/libraries/json.dm"
 #include "dm/libraries/circular_buffer.dm"
 #include "dm/libraries/graph.dm"
+#include "dm/libraries/sparse_matrix.dm"
+#include "dm/libraries/fft.dm"
+#include "dm/libraries/quaternion.dm"
+#include "dm/libraries/spline.dm"
+#include "dm/libraries/thermo_tables.dm"
 
 // Multi-Component Atmospheric Thermodynamics & Fluid Mechanics
 #include "dm/physics/gas_mixture.dm"
