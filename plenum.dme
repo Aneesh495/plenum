@@ -91,6 +91,11 @@
 #include "dm/models/diesel_genset.dm"
 #include "dm/models/substation_bay.dm"
 #include "dm/models/bess_pcs.dm"
+#include "dm/models/catalytic_reformer.dm"
+#include "dm/models/hydrogen_psa.dm"
+#include "dm/models/cryo_distillation.dm"
+#include "dm/models/nuclear_smr.dm"
+#include "dm/models/hrsg_reheat.dm"
 
 // Autonomous Robotics & Material Handling
 #include "dm/robotics/pathfinding.dm"
