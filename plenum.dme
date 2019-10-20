@@ -96,6 +96,11 @@
 #include "dm/models/cryo_distillation.dm"
 #include "dm/models/nuclear_smr.dm"
 #include "dm/models/hrsg_reheat.dm"
+#include "dm/models/membrane_desalination.dm"
+#include "dm/models/bess_cell_model.dm"
+#include "dm/models/hvdc_converter.dm"
+#include "dm/models/centrifugal_compressor.dm"
+#include "dm/models/ammonia_refrigeration.dm"
 
 // Autonomous Robotics & Material Handling
 #include "dm/robotics/pathfinding.dm"
