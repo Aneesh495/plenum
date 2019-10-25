@@ -101,6 +101,10 @@
 #include "dm/models/hvdc_converter.dm"
 #include "dm/models/centrifugal_compressor.dm"
 #include "dm/models/ammonia_refrigeration.dm"
+#include "dm/models/bio_reactor.dm"
+#include "dm/models/scr_denox_catalyst.dm"
+#include "dm/models/rotary_cement_kiln.dm"
+#include "dm/models/blast_furnace_tuyere.dm"
 
 // Autonomous Robotics & Material Handling
 #include "dm/robotics/pathfinding.dm"
