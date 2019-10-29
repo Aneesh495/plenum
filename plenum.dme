@@ -59,6 +59,10 @@
 #include "dm/hydraulics/valve.dm"
 #include "dm/hydraulics/manifold.dm"
 #include "dm/hydraulics/vessel.dm"
+#include "dm/hydraulics/water_hammer.dm"
+#include "dm/hydraulics/multiphase_flow.dm"
+#include "dm/hydraulics/compressible_duct.dm"
+#include "dm/hydraulics/cavitation.dm"
 
 // Industrial Control Systems (ICS), PLC & SCADA
 #include "dm/automation/plc.dm"
