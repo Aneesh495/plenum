@@ -52,6 +52,10 @@
 #include "dm/microgrid/power_flow.dm"
 #include "dm/microgrid/protection.dm"
 #include "dm/microgrid/switchgear.dm"
+#include "dm/microgrid/relay_coordination.dm"
+#include "dm/microgrid/market_dispatch.dm"
+#include "dm/microgrid/harmonics.dm"
+#include "dm/microgrid/inverter_control.dm"
 
 // Hydraulic Networks & Process Piping
 #include "dm/hydraulics/pipe_network.dm"
