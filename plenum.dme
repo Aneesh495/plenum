@@ -79,6 +79,11 @@
 #include "dm/automation/opc_ua.dm"
 #include "dm/automation/alarms.dm"
 #include "dm/automation/historian.dm"
+#include "dm/automation/kalman_filter.dm"
+#include "dm/automation/dmc_controller.dm"
+#include "dm/automation/smith_predictor.dm"
+#include "dm/automation/fuzzy_logic.dm"
+#include "dm/automation/hart_protocol.dm"
 
 // Safety Instrumented Systems & Containment
 #include "dm/safety/sis_interlocks.dm"
