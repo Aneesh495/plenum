@@ -90,6 +90,9 @@
 #include "dm/safety/emergency_shutdown.dm"
 #include "dm/safety/fire_suppression.dm"
 #include "dm/safety/containment.dm"
+#include "dm/safety/sil_verification.dm"
+#include "dm/safety/cause_and_effect.dm"
+#include "dm/safety/toxic_dispersion.dm"
 
 // Plant Equipment Models
 #include "dm/models/gas_turbine.dm"
