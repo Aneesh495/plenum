@@ -129,6 +129,9 @@
 #include "dm/robotics/inspection_drone.dm"
 #include "dm/robotics/service_robot.dm"
 #include "dm/robotics/conveyor.dm"
+#include "dm/robotics/fleet_traffic.dm"
+#include "dm/robotics/slam_grid.dm"
+#include "dm/robotics/manipulator_arm.dm"
 
 // Simulation Kernel & Event Scheduler
 #include "dm/scheduler/tick_kernel.dm"
