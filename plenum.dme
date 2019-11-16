@@ -148,6 +148,11 @@
 #include "dm/scenarios/scenario_chemical_fire.dm"
 #include "dm/scenarios/scenario_microgrid_island.dm"
 #include "dm/scenarios/scenario_cold_start.dm"
+#include "dm/scenarios/scenario_cascading_trip.dm"
+#include "dm/scenarios/scenario_reformer_rupture.dm"
+#include "dm/scenarios/scenario_station_blackout.dm"
+#include "dm/scenarios/scenario_cyber_stuxnet.dm"
+#include "dm/scenarios/scenario_ammonia_release.dm"
 
 // In-Engine Test Harness & Comprehensive Test Suites
 #include "dm/tests/test_runner.dm"
