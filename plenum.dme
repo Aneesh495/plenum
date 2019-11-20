@@ -42,6 +42,13 @@
 #include "dm/physics/acoustics.dm"
 #include "dm/physics/phase_change.dm"
 
+// Advanced Chemical Thermodynamics, Equations of State & Reaction Kinetics
+#include "dm/chemistry/peng_robinson.dm"
+#include "dm/chemistry/combustion_kinetics.dm"
+#include "dm/chemistry/flash_calculation.dm"
+#include "dm/chemistry/uniquac.dm"
+#include "dm/chemistry/electrolyte_nrtl.dm"
+
 // Electrical Microgrid & Power Flow
 #include "dm/microgrid/bus.dm"
 #include "dm/microgrid/line.dm"
