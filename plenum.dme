@@ -129,6 +129,12 @@
 #include "dm/models/rotary_cement_kiln.dm"
 #include "dm/models/blast_furnace_tuyere.dm"
 
+// Advanced Turbomachinery, Gas Turbine Aerodynamics & Governors
+#include "dm/turbomachinery/gas_turbine_aerodynamics.dm"
+#include "dm/turbomachinery/steam_turbine_governor.dm"
+#include "dm/turbomachinery/hydro_turbine.dm"
+#include "dm/turbomachinery/wind_turbine_aerodynamics.dm"
+
 // Autonomous Robotics & Material Handling
 #include "dm/robotics/pathfinding.dm"
 #include "dm/robotics/kinematics.dm"
