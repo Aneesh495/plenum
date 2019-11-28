@@ -64,6 +64,11 @@
 #include "dm/microgrid/harmonics.dm"
 #include "dm/microgrid/inverter_control.dm"
 
+// Digital Substation Automation, IEC 61850 & Auxiliary Systems
+#include "dm/substations/substation_automation.dm"
+#include "dm/substations/transformer_thermal.dm"
+#include "dm/substations/battery_charger_ups.dm"
+
 // Hydraulic Networks & Process Piping
 #include "dm/hydraulics/pipe_network.dm"
 #include "dm/hydraulics/pump.dm"
