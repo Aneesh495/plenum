@@ -97,6 +97,11 @@
 #include "dm/automation/fuzzy_logic.dm"
 #include "dm/automation/hart_protocol.dm"
 
+// Industrial Telemetry, SCADA & IIoT Protocol Stacks
+#include "dm/telemetry/opc_ua_server.dm"
+#include "dm/telemetry/dnp3_outstation.dm"
+#include "dm/telemetry/mqtt_sparkplug.dm"
+
 // Safety Instrumented Systems & Containment
 #include "dm/safety/sis_interlocks.dm"
 #include "dm/safety/emergency_shutdown.dm"
