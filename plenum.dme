@@ -193,3 +193,6 @@
 #include "dm/tests/test_advanced_automation.dm"
 #include "dm/tests/test_advanced_safety.dm"
 #include "dm/tests/test_advanced_robotics.dm"
+#include "dm/tests/test_advanced_turbomachinery.dm"
+#include "dm/tests/test_advanced_telemetry.dm"
+#include "dm/tests/test_advanced_chemistry.dm"
